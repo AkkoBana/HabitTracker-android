@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HabitTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant"></item>
+        <item name="colorOnPrimary">@color/on_primary_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant"></item>
+        <item name="colorOnSecondary">@color/on_secondary_color</item>
+        <item name="buttonStyle">@style/Widget.HabitTracker.ButtonStyle</item>
+    </style>
+
+    <style name="Widget.HabitTracker.ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:radius">16dp</item>
+        <item name="back"></item>
+    </style>
+</resources>

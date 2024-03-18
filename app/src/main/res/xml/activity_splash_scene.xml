@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start1">
+        <Constraint android:id="@+id/ivLogo" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end1">
+        <Constraint android:id="@id/ivLogo" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/start2">
+        <Constraint android:id="@id/circle" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end2">
+        <Constraint android:id="@id/circle"
+            android:layout_height="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scaleX="2000"
+            android:scaleY="2000" />
+    </ConstraintSet>
+
+    <Transition
+        app:constraintSetEnd="@id/end1"
+        app:constraintSetStart="@+id/start1" />
+    <Transition
+        app:constraintSetEnd="@id/end2"
+        app:constraintSetStart="@+id/start2"
+        />
+</MotionScene>

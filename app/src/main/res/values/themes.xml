@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HabitTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant"></item>
+        <item name="colorOnPrimary"></item>
+        <item name="colorSecondary"></item>
+        <item name="colorSecondaryVariant"></item>
+        <item name="colorOnSecondary"></item>
+        <item name="colorError"></item>
+        <item name="colorOnError"></item>
+        <item name="colorSurface"></item>
+        <item name="colorOnSurface"></item>
+        <item name=""
+    </style>
+
+
+    <style name=""
+
+    <style name="Theme.HabitTracker" parent="Base.Theme.HabitTracker">
+
+    </style>
+
+    <style name="buttonStyle" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="elevation">10dp</item>
+        <item name="elevationOverlayColor">#FFEB3B</item>
+        <item name="background">@drawable/shape_button</item>
+    </style>
+
+</resources>

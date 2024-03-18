@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+
+    <!--auth_screen-->
+    <string name="username">Никнейм</string>
+    <string name="login">Логин</string>
+</resources>
